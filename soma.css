@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient( to right, #1F2024,#4B4952, #79717A);
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+input{
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 1px  red;
+}
+
+
+#form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#botao{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+
+span{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#res{
+    display: flex;
+    padding-top: 10px;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#botao:hover{
+    background: red;
+}
